@@ -57,13 +57,13 @@ def lambda_handler(event, context):
     # 필요 변수 선언
     value = 0
     commands = {
-        "ch_kospi": ("코스피", "kospi", "테스트"),
-        "ch_kosdaq": ("코스닥", "kosdaq"),
+        "ch_kospi": ("코스피", "kospi", "KOSPI", "테스트"),
+        "ch_kosdaq": ("코스닥", "kosdaq", "KOSDAQ"),
         "ch_nasdaq": ("나스닥", "nasdaq"),
-        "ch_usd": ("달러", "usd"),
-        "ch_jpy": ("엔화", "jpy"),
-        "ch_eur": ("유로", "eur"),
-        "ch_gold": ("금", "gold"),
+        "ch_usd": ("달러", "usd", "USD"),
+        "ch_jpy": ("엔화", "jpy", "JPY", "엔"),
+        "ch_eur": ("유로", "eur", "EUR"),
+        "ch_gold": ("금", "gold", "GOLD"),
         #"ch_help": ("도움말", "help"),
         #"ch_all": ("종합")
     }
